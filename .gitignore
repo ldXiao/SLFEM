@@ -1,2 +1,7 @@
 *.json
 *.png
+
+#ignore the directory
+cmake-build-debug/
+build/
+data/
