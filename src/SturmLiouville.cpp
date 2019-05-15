@@ -9,10 +9,14 @@ namespace polyfem
     {
         const Eigen::MatrixXd &gradi = vals.basis_values[i].grad_t_m;
         const Eigen::MatrixXd &gradj = vals.basis_values[j].grad_t_m;
-
+        const Eigen::MatrixXd &point = vals.val;
+        int dim = point.cols();
         double res = 0;
         for (int k = 0; k < gradi.rows(); ++k) {
-            res += gradi.row(k).dot(gradj.row(k)) * da(k);
+            if(dim==2)
+                res += gradi.row(k).dot(gradj.row(k)) * da(k) * pweight_(point(k,0),point(k,1));
+            else
+                res += gradi.row(k).dot(gradj.row(k)) * da(k) * pweight_(point(k,0),point(k,1),point(k,2));
         }
 
         res -= (vals.basis_values[i].val.array() * vals.basis_values[j].val.array() * da.array()).sum() * k_* k_;
@@ -30,8 +34,14 @@ namespace polyfem
 
     void SturmLiouville::set_parameters(const json &params)
     {
-        if (params.find("k") != params.end()) {
-            k_ = params["k"];
+        if(params.find("SLparams")!= params.end()) {
+            auto weights = params["SLparams"];
+            pweight_.init(weights["pweight"]);
+            qweight_.init(weights["qweight"]);
+        }
+        else{
+            pweight_.init(1);
+            qweight_.init(0);
         }
     }
 

@@ -2,7 +2,7 @@
 
 #include <polyfem/Common.hpp>
 #include <polyfem/AutodiffTypes.hpp>
-
+#include <polyfem/ExpressionValue.hpp>
 #include <polyfem/ElementAssemblyValues.hpp>
 #include <Eigen/Dense>
 
@@ -22,6 +22,8 @@ namespace polyfem
 
     private:
         double k_ = 1;
+        ExpressionValue pweight_;
+        ExpressionValue qweight_;
     };
 }
 

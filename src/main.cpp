@@ -49,9 +49,9 @@ int main(int argc, char **argv)
     std::string screenshot = "";
     std::string problem_name = "GenericScalar";
 //    std::string json_file = data_path+"run.json";
-    json problemparam = R"({"dirichlet_boundary":[{"id": 1,"value": 0},{"id": 2,"value": "sin(x)+y"}],"dirichlet_boundary": [{"id": 3,"value": 1},{"id": 4,"value": "x^2"}]})"_json;
+    json problemparam = R"({"dirichlet_boundary":[{"id": "all", "value": "sin(x+y) "}]})"_json;
 
-
+//    json sturmliouville_param=R"";
     int n_refs = 0;
 
     std::string scalar_formulation = "SturmLiouville";
@@ -95,8 +95,6 @@ int main(int argc, char **argv)
     in_args["scalar_formulation"] = scalar_formulation;
     in_args["tensor_formulation"] = tensor_formulation;
     // in_args["mixed_formulation"] = mixed_formulation;
-
-
     in_args["discr_order"] = discr_order;
     in_args["use_spline"] = use_splines;
     in_args["output"] = output;

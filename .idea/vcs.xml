@@ -13,6 +13,12 @@
     <mapping directory="$PROJECT_DIR$/externals/polyfem/3rdparty/hypre" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/externals/polyfem/3rdparty/json" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/externals/polyfem/3rdparty/libigl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/externals/polyfem/3rdparty/libigl/external/glad" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/externals/polyfem/3rdparty/libigl/external/glfw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/externals/polyfem/3rdparty/libigl/external/imgui" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/externals/polyfem/3rdparty/libigl/external/libigl-imgui" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/externals/polyfem/3rdparty/libigl/external/tetgen" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/externals/polyfem/3rdparty/libigl/external/triangle" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/externals/polyfem/3rdparty/spdlog" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/externals/polyfem/3rdparty/spectra" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/externals/polyfem/3rdparty/tbb" vcs="Git" />

@@ -5,7 +5,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 ######################################################################
 # libigl
-######################################################################
+#######################################################################
 option(LIBIGL_USE_STATIC_LIBRARY "Use libigl as static library" OFF)
 option(LIBIGL_WITH_ANTTWEAKBAR       "Use AntTweakBar"    OFF)
 option(LIBIGL_WITH_CGAL              "Use CGAL"           OFF)
@@ -30,7 +30,7 @@ find_package(LIBIGL REQUIRED QUIET)
 ######################################################################
 # polyfem
 ######################################################################
-
+message(${CMAKE_CURRENT_SOURCE_DIR})
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/externals/polyfem polyfem)
 
 
@@ -42,4 +42,15 @@ add_executable(${PROJECT_NAME}_bin ${SRCFILES}
         src/UIMenu.cpp
         src/UIState.cpp
         src/CustomAssemblerUtils.cpp src/CustomAssemblerUtils.hpp src/CustomState.cpp src/CustomState.hpp)
-target_link_libraries(${PROJECT_NAME}_bin igl::core igl::opengl_glfw igl::opengl_glfw_imgui polyfem)
+
+
+
+target_link_libraries(${PROJECT_NAME}_bin  igl::core igl::opengl_glfw igl::opengl_glfw_imgui polyfem)
+
+
+add_executable(${PROJECT_NAME}_test
+        src/test.cpp
+        src/SturmLiouville.cpp
+        src/SturmLiouville.hpp
+        )
+target_link_libraries(${PROJECT_NAME}_test  igl::core igl::opengl_glfw igl::opengl_glfw_imgui polyfem)
