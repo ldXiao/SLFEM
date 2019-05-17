@@ -52,6 +52,6 @@ script:
 - cd build
 - cmake -DCMAKE_BUILD_TYPE=$CONFIG -DPOLYFEM_WITH_MISC=ON ..
 - make -j2
-- make test
+- make slfem_test
 - ccache --show-stats
 - cd ..
