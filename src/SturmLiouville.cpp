@@ -13,13 +13,17 @@ namespace polyfem
         int dim = point.cols();
         double res = 0;
         for (int k = 0; k < gradi.rows(); ++k) {
-            if(dim==2)
-                res += gradi.row(k).dot(gradj.row(k)) * da(k) * pweight_(point(k,0),point(k,1));
-            else
-                res += gradi.row(k).dot(gradj.row(k)) * da(k) * pweight_(point(k,0),point(k,1),point(k,2));
+            if(dim==2) {
+                res += gradi.row(k).dot(gradj.row(k)) * da(k) * pweight_(point(k, 0), point(k, 1));
+                res -= (vals.basis_values[i].val.array() *
+                        vals.basis_values[j].val.array() * da.array()).sum() * qweight_(point(k,0),point(k,1));
+            }
+            else {
+                res += gradi.row(k).dot(gradj.row(k)) * da(k) * pweight_(point(k, 0), point(k, 1), point(k, 2));
+                res -= (vals.basis_values[i].val.array() *
+                        vals.basis_values[j].val.array() * da.array()).sum() * qweight_(point(k,0),point(k,1), point(k,2));
+            }
         }
-
-        res -= (vals.basis_values[i].val.array() * vals.basis_values[j].val.array() * da.array()).sum() * k_* k_;
 
         return Eigen::Matrix<double, 1, 1>::Constant(res);
     }

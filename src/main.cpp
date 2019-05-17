@@ -23,8 +23,6 @@ std::string data_path = "/Users/vector_cat/gits/polySLBVP/data/";
 
 
 
-
-
 int main(int argc, char **argv)
 {
 #ifndef WIN32
@@ -49,7 +47,8 @@ int main(int argc, char **argv)
     std::string screenshot = "";
     std::string problem_name = "GenericScalar";
 //    std::string json_file = data_path+"run.json";
-    json problemparam = R"({"dirichlet_boundary":[{"id": "all", "value": "sin(x+y) "}]})"_json;
+    json problemparam = R"({"dirichlet_boundary":[{"id": "all", "value": "sin(10 * x+y) "}]})"_json;
+    json SLparams = R"({"SLparams":{"pweight":"2+cos(x+10 * y) ","qweight": "-1 * (x+1)^(2)+1"}})"_json;
 
 //    json sturmliouville_param=R"";
     int n_refs = 0;
@@ -101,7 +100,7 @@ int main(int argc, char **argv)
     in_args["use_p_ref"] = p_ref;
     in_args["iso_parametric"] = isoparametric;
     in_args["serendipity"] = serendipity;
-
+    in_args["params"] = SLparams;
     if (!vtu.empty()) {
         in_args["export"]["vis_mesh"] = vtu;
         in_args["export"]["wire_mesh"] = StringUtils::replace_ext(vtu, "obj");

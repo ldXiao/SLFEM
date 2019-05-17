@@ -7,6 +7,8 @@
     <mapping directory="$PROJECT_DIR$/externals/libigl/external/glfw" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/externals/libigl/external/imgui" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/externals/libigl/external/libigl-imgui" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/externals/libigl/external/tetgen" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/externals/libigl/external/triangle" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/externals/polyfem" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/externals/polyfem/3rdparty/CppNumericalSolvers" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/externals/polyfem/3rdparty/geogram" vcs="Git" />

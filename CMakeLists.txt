@@ -3,6 +3,10 @@ project(slfem)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
+message(${CMAKE_CURRENT_SOURCE_DIR})
+
+
+
 ######################################################################
 # libigl
 #######################################################################
@@ -30,10 +34,8 @@ find_package(LIBIGL REQUIRED QUIET)
 ######################################################################
 # polyfem
 ######################################################################
-message(${CMAKE_CURRENT_SOURCE_DIR})
+
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/externals/polyfem polyfem)
-
-
 file(GLOB SRCFILES src/main.cpp)
 add_executable(${PROJECT_NAME}_bin ${SRCFILES}
         src/SturmLiouville.cpp
@@ -46,11 +48,11 @@ add_executable(${PROJECT_NAME}_bin ${SRCFILES}
 
 
 target_link_libraries(${PROJECT_NAME}_bin  igl::core igl::opengl_glfw igl::opengl_glfw_imgui polyfem)
-
+#target_link_libraries(${PROJECT_NAME}_bin  polyfem)
 
 add_executable(${PROJECT_NAME}_test
         src/test.cpp
         src/SturmLiouville.cpp
         src/SturmLiouville.hpp
         )
-target_link_libraries(${PROJECT_NAME}_test  igl::core igl::opengl_glfw igl::opengl_glfw_imgui polyfem)
+target_link_libraries(${PROJECT_NAME}_test igl::core igl::opengl_glfw igl::opengl_glfw_imgui polyfem)
