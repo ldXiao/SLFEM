@@ -46,7 +46,7 @@ install:
 
 script:
 - git clone https://github.com/libigl/libigl.git externals/libigl
-- git clone https://github.com/ldXiao/polyfem.git externals/libigl
+- git clone https://github.com/ldXiao/polyfem.git externals/polyfem
 - cd externals/libigl && git submodule update --recursive --init && cd $TRAVIS_BUILD_DIR
 - mkdir build
 - cd build
