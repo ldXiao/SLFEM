@@ -62,7 +62,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="093658b0-a8a3-40a1-a9e5-c5544c50b250" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/externals/polyfem" beforeDir="false" afterPath="$PROJECT_DIR$/externals/polyfem" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/externals/polyfem/src/assembler/Assembler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/externals/polyfem/src/assembler/Assembler.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/externals/polyfem/src/assembler/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/externals/polyfem/src/assembler/CMakeLists.txt" afterDir="false" />
@@ -91,12 +91,14 @@
           <entry key="cpp" value="1593" />
           <entry key="hpp" value="50" />
           <entry key="txt" value="85" />
+          <entry key="yml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="85" />
           <entry key="ObjectiveC" value="1643" />
+          <entry key="YAML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -223,7 +225,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -272,6 +278,7 @@
         <option value="$PROJECT_DIR$/externals/polyfem/src/assembler/Assembler.cpp" />
         <option value="$PROJECT_DIR$/src/SturmLiouville.cpp" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -325,6 +332,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/cmake" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/src" />
@@ -664,15 +672,16 @@
       <updated>1557861015315</updated>
       <workItem from="1557861016858" duration="14562000" />
       <workItem from="1557932933622" duration="598000" />
-      <workItem from="1558036365738" duration="9423000" />
+      <workItem from="1558036365738" duration="10083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24583000" />
+    <option name="totallyTimeSpent" value="25243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -951,7 +960,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
