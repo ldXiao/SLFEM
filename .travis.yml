@@ -22,10 +22,6 @@ matrix:
     compiler: gcc-7
     env:
     - MATRIX_EVAL="export CC=gcc-7 && CXX=g++-7 && CONFIG=Debug"
-    script:
-    - git clone https://github.com/libigl/libigl.git externals/libigl
-    - git clone https://github.com/polyfem/polyfem.git externals/polyfem
-    - cd externals/libigl && git submodule update --recursive --init && cd $TRAVIS_BUILD_DIR
   - os: osx
     osx_image: xcode8.3
     compiler: clang
@@ -49,6 +45,9 @@ install:
 - ccache -V && ccache --show-stats && ccache --zero-stats
 
 script:
+- git clone https://github.com/libigl/libigl.git externals/libigl
+- git clone https://github.com/polyfem/polyfem.git externals/polyfem
+- cd externals/libigl && git submodule update --recursive --init && cd $TRAVIS_BUILD_DIR
 - mkdir build
 - cd build
 - cmake -DCMAKE_BUILD_TYPE=$CONFIG -DPOLYFEM_WITH_MISC=ON ..

@@ -91,14 +91,14 @@
           <entry key="cpp" value="1593" />
           <entry key="hpp" value="50" />
           <entry key="txt" value="85" />
-          <entry key="yml" value="10" />
+          <entry key="yml" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="85" />
           <entry key="ObjectiveC" value="1643" />
-          <entry key="YAML" value="10" />
+          <entry key="YAML" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -226,8 +226,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+            <state relative-caret-position="270">
+              <caret line="48" column="68" lean-forward="true" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -672,12 +672,12 @@
       <updated>1557861015315</updated>
       <workItem from="1557861016858" duration="14562000" />
       <workItem from="1557932933622" duration="598000" />
-      <workItem from="1558036365738" duration="10083000" />
+      <workItem from="1558036365738" duration="10354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25243000" />
+    <option name="totallyTimeSpent" value="25514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
@@ -961,8 +961,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+        <state relative-caret-position="270">
+          <caret line="48" column="68" lean-forward="true" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
         </state>
       </provider>
     </entry>
