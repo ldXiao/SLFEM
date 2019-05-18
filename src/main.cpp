@@ -12,14 +12,14 @@
 //#include <polyfem/AssemblerUtils.hpp>
 #include <polyfem/LinearSolver.hpp>
 #include <polyfem/Assembler.hpp>
-
+#include <fstream>
 //#include <geogram/basic/command_line.h>
 //#include <geogram/basic/command_line_args.h>
 
 using namespace polyfem;
 using namespace Eigen;
 
-std::string data_path = "/Users/vector_cat/gits/polySLBVP/data/";
+std::string data_path = "../data/";
 
 
 
@@ -49,6 +49,9 @@ int main(int argc, char **argv)
 //    std::string json_file = data_path+"run.json";
     json problemparam = R"({"dirichlet_boundary":[{"id": "all", "value": "sin(10 * x+y) "}]})"_json;
     json SLparams = R"({"SLparams":{"pweight":"2+cos(x+10 * y) ","qweight": "-1 * (x+1)^(2)+1"}})"_json;
+    std::ifstream SLfile(data_path+"SLparams.json");
+    SLparams.parse(SLfile);
+
 
 //    json sturmliouville_param=R"";
     int n_refs = 0;
