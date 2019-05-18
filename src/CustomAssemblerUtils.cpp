@@ -105,7 +105,7 @@ namespace polyfem
                                               const std::vector< ElementBases > &gbases,
                                               StiffnessMatrix &mass) const
     {
-        if(assembler == "Helmholtz" || assembler == "Laplacian")
+        if(assembler == "Helmholtz" || assembler == "Laplacian"|| assembler == "SturmLiouvile")
             mass_mat_assembler_.assemble(is_volume, 1, n_basis, bases, gbases, mass);
         else
             mass_mat_assembler_.assemble(is_volume, is_volume ? 3 : 2, n_basis, bases, gbases, mass);

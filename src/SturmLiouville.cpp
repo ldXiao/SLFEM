@@ -2,7 +2,7 @@
 #include <polyfem/Bessel.hpp>
 
 #include <iostream>
-
+#include <polyfem/autodiff.h>
 namespace polyfem
 {
     Eigen::Matrix<double, 1, 1> SturmLiouville::assemble(const ElementAssemblyValues &vals, const int i, const int j, const QuadratureVector &da) const
@@ -32,7 +32,8 @@ namespace polyfem
     {
         Eigen::Matrix<double, 1, 1> result;
         assert(pt.size() == 1);
-        result(0) = pt(0).getHessian().trace() + k_ * k_ * pt(0).getValue();
+        result(0) = pt(0).getGradient().sum() + k_ * k_ * pt(0).getValue();
+
         return result;
     }
 

@@ -46,14 +46,14 @@ int main(int argc, char **argv)
     std::string vtu = "";
     std::string screenshot = "";
     std::string problem_name = "GenericScalar";
-//    std::string json_file = data_path+"run.json";
-    json problemparam = R"({"dirichlet_boundary":[{"id": "all", "value": "sin(10 * x+y) "}]})"_json;
-    json SLparams = R"({"SLparams":{"pweight":"2+cos(x+10 * y) ","qweight": "-1 * (x+1)^(2)+1"}})"_json;
+//    json problemparam = R"({"dirichlet_boundary":[{"id": "all", "value": "sin(10 * x+y) "}]})"_json;
+//    json SLparams= R"({"SLparams":{"pweight":"2+cos(x+10 * y) ","qweight": "-1 * (x+1)^(2)+1"}})"_json;
     std::ifstream SLfile(data_path+"SLparams.json");
-    SLparams.parse(SLfile);
+    std::ifstream BCfile(data_path+"BCparams.json");
+    json SLparams=json::parse(SLfile);
+    json BCparams=json::parse(BCfile);
 
 
-//    json sturmliouville_param=R"";
     int n_refs = 0;
 
     std::string scalar_formulation = "SturmLiouville";
@@ -92,7 +92,7 @@ int main(int argc, char **argv)
     in_args["n_refs"] = n_refs;
     in_args["problem"] = problem_name;
     in_args["normalize_mesh"] = !skip_normalization;
-    in_args["problem_params"] = problemparam;
+    in_args["problem_params"] = BCparams;
 
     in_args["scalar_formulation"] = scalar_formulation;
     in_args["tensor_formulation"] = tensor_formulation;
