@@ -295,8 +295,45 @@ namespace polyfem
             return helmholtz_.local_assembler().compute_rhs(pt);
         else if(assembler == "Bilaplacian")
             return bilaplacian_main_.local_assembler().compute_rhs(pt);
+
+
+        else if(assembler == "LinearElasticity")
+            return linear_elasticity_.local_assembler().compute_rhs(pt);
+        else if(assembler == "HookeLinearElasticity")
+            return hooke_linear_elasticity_.local_assembler().compute_rhs(pt);
+
+        else if(assembler == "SaintVenant")
+            return saint_venant_elasticity_.local_assembler().compute_rhs(pt);
+        else if(assembler == "NeoHookean")
+            return neo_hookean_elasticity_.local_assembler().compute_rhs(pt);
+            //else if(assembler == "Ogden")
+            //	return ogden_elasticity_.local_assembler().compute_rhs(pt);
+
+        else if(assembler == "Stokes")
+            return stokes_velocity_.local_assembler().compute_rhs(pt);
+        else if(assembler == "IncompressibleLinearElasticity")
+            return incompressible_lin_elast_displacement_.local_assembler().compute_rhs(pt);
+
+        else
+        {
+            logger().warn("{} not found, fallback to default", assembler);
+
+            assert(false);
+            return laplacian_.local_assembler().compute_rhs(pt);
+        }
+
+    }
+
+    VectorNd AssemblerUtils::compute_rhs(const std::string &assembler, const AutodiffHessianPt &pt, const Eigen::MatrixXd &cordinate) const
+    {
+        if(assembler == "Laplacian")
+            return laplacian_.local_assembler().compute_rhs(pt);
+        else if(assembler == "Helmholtz")
+            return helmholtz_.local_assembler().compute_rhs(pt);
+        else if(assembler == "Bilaplacian")
+            return bilaplacian_main_.local_assembler().compute_rhs(pt);
         else if(assembler == "SturmLiouville")
-            return sturmliouville_.local_assembler().compute_rhs(pt);
+            return sturmliouville_.local_assembler().compute_rhs(pt, cordinate);
 
         else if(assembler == "LinearElasticity")
             return linear_elasticity_.local_assembler().compute_rhs(pt);
@@ -372,8 +409,8 @@ namespace polyfem
             return laplacian_.local_assembler().kernel(dim, r);
         else if(assembler == "Helmholtz")
             return helmholtz_.local_assembler().kernel(dim, r);
-        else if(assembler == "SturmLiouville")
-            return sturmliouville_.local_assembler().kernel(dim, r);
+//        else if(assembler == "SturmLiouville")
+//            return sturmliouville_.local_assembler().kernel(dim, r);
 
             // else if(assembler == "LinearElasticity")
             // 	return linear_elasticity_.local_assembler().kernel(dim, r);

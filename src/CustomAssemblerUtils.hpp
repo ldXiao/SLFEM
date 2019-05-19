@@ -107,7 +107,7 @@ namespace polyfem
 
         //for errors
         VectorNd compute_rhs(const std::string &assembler, const AutodiffHessianPt &pt) const;
-
+        VectorNd compute_rhs(const std::string &assembler, const AutodiffHessianPt &pt, const Eigen::MatrixXd &cordinate) const;
         //for constraints
         Eigen::Matrix<double, Eigen::Dynamic, 1, 0, 9, 1>
         local_assemble(const std::string &assembler,

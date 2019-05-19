@@ -12,9 +12,9 @@ namespace polyfem
     {
     public:
         Eigen::Matrix<double, 1, 1> assemble(const ElementAssemblyValues &vals, const int i, const int j, const QuadratureVector &da) const;
-        Eigen::Matrix<double, 1, 1> compute_rhs(const AutodiffHessianPt &pt) const;
+        Eigen::Matrix<double, 1, 1> compute_rhs(const AutodiffHessianPt &pt, const Eigen::MatrixXd &cordinate) const;
 
-        Eigen::Matrix<AutodiffScalarGrad, Eigen::Dynamic, 1, 0, 3, 1> kernel(const int dim, const AutodiffScalarGrad &r) const;
+//        Eigen::Matrix<AutodiffScalarGrad, Eigen::Dynamic, 1, 0, 3, 1> kernel(const int dim, const AutodiffScalarGrad &r) const;
 
         inline int size() const { return 1; }
 
@@ -24,6 +24,8 @@ namespace polyfem
         double k_ = 1;
         ExpressionValue pweight_;
         ExpressionValue qweight_;
+        ExpressionValue pweightdiffx_;
+        ExpressionValue pweightdiffy_;
     };
 }
 
