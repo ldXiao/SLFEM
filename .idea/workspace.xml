@@ -2,57 +2,57 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="slfem" targetName="NightlyUpdate" />
-      <config projectName="slfem" targetName="ContinuousConfigure" />
-      <config projectName="slfem" targetName="ExperimentalMemCheck" />
-      <config projectName="slfem" targetName="ExperimentalUpdate" />
-      <config projectName="slfem" targetName="glfw" />
-      <config projectName="slfem" targetName="ExperimentalStart" />
-      <config projectName="slfem" targetName="geogram" />
-      <config projectName="slfem" targetName="doc-devkit-full" />
-      <config projectName="slfem" targetName="ContinuousUpdate" />
+      <config projectName="slfem" targetName="tinyexpr_tinyexpr" />
       <config projectName="slfem" targetName="NightlyMemCheck" />
-      <config projectName="slfem" targetName="NightlyConfigure" />
-      <config projectName="slfem" targetName="ExperimentalSubmit" />
-      <config projectName="slfem" targetName="Nightly" />
-      <config projectName="slfem" targetName="Experimental" />
-      <config projectName="slfem" targetName="NightlySubmit" />
-      <config projectName="slfem" targetName="ContinuousMemCheck" />
-      <config projectName="slfem" targetName="HYPRE" />
-      <config projectName="slfem" targetName="doc-devkit-internal" />
-      <config projectName="slfem" targetName="ExperimentalConfigure" />
-      <config projectName="slfem" targetName="tbb_static" />
-      <config projectName="slfem" targetName="spdlog_headers_for_ide" />
-      <config projectName="slfem" targetName="NightlyMemoryCheck" />
-      <config projectName="slfem" targetName="slfem_bin" />
       <config projectName="slfem" targetName="geogram_gfx" />
-      <config projectName="slfem" targetName="triangle" />
-      <config projectName="slfem" targetName="ExperimentalBuild" />
-      <config projectName="slfem" targetName="tbb_def_files" />
-      <config projectName="slfem" targetName="ContinuousStart" />
-      <config projectName="slfem" targetName="slfem_test" />
-      <config projectName="slfem" targetName="clipper_clipper" />
-      <config projectName="slfem" targetName="ExperimentalCoverage" />
+      <config projectName="slfem" targetName="Nightly" />
+      <config projectName="slfem" targetName="Continuous" />
+      <config projectName="slfem" targetName="doc-devkit-internal" />
+      <config projectName="slfem" targetName="ContinuousMemCheck" />
+      <config projectName="slfem" targetName="ContinuousConfigure" />
+      <config projectName="slfem" targetName="ContinuousSubmit" />
+      <config projectName="slfem" targetName="NightlyConfigure" />
+      <config projectName="slfem" targetName="ExperimentalTest" />
+      <config projectName="slfem" targetName="ContinuousTest" />
       <config projectName="slfem" targetName="tetgen" />
+      <config projectName="slfem" targetName="ContinuousStart" />
       <config projectName="slfem" targetName="doc-devkit" />
-      <config projectName="slfem" targetName="NightlyBuild" />
+      <config projectName="slfem" targetName="ExperimentalCoverage" />
+      <config projectName="slfem" targetName="uninstall" />
+      <config projectName="slfem" targetName="ExperimentalUpdate" />
+      <config projectName="slfem" targetName="slfem_test" />
+      <config projectName="slfem" targetName="NightlyCoverage" />
+      <config projectName="slfem" targetName="polyfem" />
+      <config projectName="slfem" targetName="ExperimentalStart" />
+      <config projectName="slfem" targetName="glfw" />
+      <config projectName="slfem" targetName="tbb_static" />
       <config projectName="slfem" targetName="glad" />
       <config projectName="slfem" targetName="ContinuousCoverage" />
+      <config projectName="slfem" targetName="Experimental" />
       <config projectName="slfem" targetName="NightlyTest" />
-      <config projectName="slfem" targetName="ContinuousBuild" />
-      <config projectName="slfem" targetName="ExperimentalTest" />
-      <config projectName="slfem" targetName="polyfem" />
-      <config projectName="slfem" targetName="tinyexpr_tinyexpr" />
-      <config projectName="slfem" targetName="ContinuousSubmit" />
-      <config projectName="slfem" targetName="geogram_gfx_third_party" />
+      <config projectName="slfem" targetName="NightlySubmit" />
       <config projectName="slfem" targetName="doc-devkit-internal-light" />
-      <config projectName="slfem" targetName="Continuous" />
-      <config projectName="slfem" targetName="ContinuousTest" />
-      <config projectName="slfem" targetName="NightlyCoverage" />
-      <config projectName="slfem" targetName="uninstall" />
-      <config projectName="slfem" targetName="NightlyStart" />
+      <config projectName="slfem" targetName="doc-devkit-full" />
       <config projectName="slfem" targetName="geogram_third_party" />
+      <config projectName="slfem" targetName="geogram" />
+      <config projectName="slfem" targetName="NightlyStart" />
+      <config projectName="slfem" targetName="ContinuousUpdate" />
       <config projectName="slfem" targetName="imgui" />
+      <config projectName="slfem" targetName="ExperimentalSubmit" />
+      <config projectName="slfem" targetName="slfem_bin" />
+      <config projectName="slfem" targetName="tbb_def_files" />
+      <config projectName="slfem" targetName="NightlyUpdate" />
+      <config projectName="slfem" targetName="clipper_clipper" />
+      <config projectName="slfem" targetName="ExperimentalConfigure" />
+      <config projectName="slfem" targetName="ContinuousBuild" />
+      <config projectName="slfem" targetName="NightlyMemoryCheck" />
+      <config projectName="slfem" targetName="geogram_gfx_third_party" />
+      <config projectName="slfem" targetName="spdlog_headers_for_ide" />
+      <config projectName="slfem" targetName="triangle" />
+      <config projectName="slfem" targetName="HYPRE" />
+      <config projectName="slfem" targetName="ExperimentalBuild" />
+      <config projectName="slfem" targetName="ExperimentalMemCheck" />
+      <config projectName="slfem" targetName="NightlyBuild" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -62,13 +62,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="093658b0-a8a3-40a1-a9e5-c5544c50b250" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/externals/polyfem/src/State.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/externals/polyfem/src/State.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/externals/polyfem/src/assembler/RhsAssembler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/externals/polyfem/src/assembler/RhsAssembler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/externals/polyfem/src/problem/GenericProblem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/externals/polyfem/src/problem/GenericProblem.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/externals/polyfem/src/problem/ProblemWithSolution.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/externals/polyfem/src/problem/ProblemWithSolution.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CustomAssemblerUtils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomAssemblerUtils.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CustomAssemblerUtils.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomAssemblerUtils.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SturmLiouville.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/SturmLiouville.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SturmLiouville.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/SturmLiouville.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UIMenu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/UIMenu.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,20 +81,20 @@
     <session id="-1818767555">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cmake" value="14" />
-          <entry key="cpp" value="2924" />
+          <entry key="cpp" value="2973" />
           <entry key="hpp" value="273" />
-          <entry key="json" value="275" />
+          <entry key="json" value="314" />
           <entry key="txt" value="88" />
           <entry key="yml" value="90" />
         </counts>
@@ -103,8 +102,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="102" />
-          <entry key="JSON" value="275" />
-          <entry key="ObjectiveC" value="3197" />
+          <entry key="JSON" value="314" />
+          <entry key="ObjectiveC" value="3246" />
           <entry key="YAML" value="90" />
         </counts>
       </usages-collector>
@@ -112,24 +111,25 @@
         <counts>
           <entry key="c" value="3" />
           <entry key="cmake" value="5" />
-          <entry key="cpp" value="77" />
-          <entry key="h" value="10" />
-          <entry key="hpp" value="53" />
-          <entry key="json" value="15" />
+          <entry key="cpp" value="93" />
+          <entry key="h" value="11" />
+          <entry key="hpp" value="61" />
+          <entry key="json" value="17" />
           <entry key="md" value="1" />
           <entry key="obj" value="3" />
           <entry key="off" value="2" />
           <entry key="string" value="1" />
           <entry key="txt" value="7" />
+          <entry key="vtu" value="1" />
           <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="12" />
-          <entry key="JSON" value="15" />
-          <entry key="ObjectiveC" value="144" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="JSON" value="17" />
+          <entry key="ObjectiveC" value="169" />
+          <entry key="PLAIN_TEXT" value="7" />
           <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
@@ -140,8 +140,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SturmLiouville.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+            <state relative-caret-position="67">
+              <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -150,85 +150,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/externals/polyfem/src/State.cpp">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/AssemblyValues.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1869">
-              <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-              <folding>
-                <marker date="1558295425979" expanded="false" signature="57561:60724" ph="{...}" />
-                <marker date="1558295425979" expanded="false" signature="62379:62726" ph="{...}" />
-                <marker date="1558295425979" expanded="false" signature="64477:69273" ph="{...}" />
-              </folding>
+            <state relative-caret-position="175">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/State.hpp">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/ElementAssemblyValues.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/LocalBoundary.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-79">
-              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/RhsAssembler.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-              <folding>
-                <element signature="e#53#74#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="155">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/externals/polyfem/src/assembler/RhsAssembler.cpp">
+        <entry file="file://$PROJECT_DIR$/data/SLparams.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="308" column="76" selection-start-line="308" selection-start-column="76" selection-end-line="308" selection-end-column="76" />
+            <state relative-caret-position="15">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/externals/polyfem/tests/test_problem.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-296">
+              <caret line="320" column="5" selection-start-line="320" selection-start-column="5" selection-end-line="320" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/externals/polyfem/src/problem/Problem.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="99" column="58" selection-start-line="99" selection-start-column="58" selection-end-line="99" selection-end-column="58" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <element signature="e#2552#3630#0" />
-                <element signature="e#11927#12611#0" />
-                <element signature="e#12614#13325#0" />
-                <element signature="e#14054#14615#0" />
-                <element signature="e#14618#18035#0" />
-                <marker date="1558296866875" expanded="true" signature="1107:1998" ph="{...}" />
-                <marker date="1558296866875" expanded="true" signature="8794:10057" ph="{...}" />
+                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#2880#2987#0" />
+                <element signature="e#5466#5680#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CustomAssemblerUtils.cpp">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/MiscProblem.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="411" column="10" selection-start-line="411" selection-start-column="10" selection-end-line="412" selection-end-column="70" />
-              <folding>
-                <element signature="e#40#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/BCparams.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="109">
+              <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -236,21 +211,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UIMenu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="332" column="68" selection-start-line="332" selection-start-column="68" selection-end-line="332" selection-end-column="68" />
+            <state relative-caret-position="578">
+              <caret line="251" column="32" selection-start-line="251" selection-start-column="32" selection-end-line="251" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UIState.cpp">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/result.vtu">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/externals/polyfem/src/problem/MiscProblem.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="1619" column="20" lean-forward="true" selection-start-line="1619" selection-start-column="20" selection-end-line="1619" selection-end-column="20" />
+            <state relative-caret-position="363">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
               <folding>
-                <element signature="e#125#160#0" expanded="true" />
-                <element signature="e#519#541#0" expanded="true" />
-                <element signature="e#685#710#0" expanded="true" />
+                <element signature="e#0#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -260,45 +238,44 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>assi</find>
-      <find>assemble_rhs</find>
-      <find>compute_rhs</find>
-      <find>.rhs</find>
-      <find>#include &lt;polyfem.P</find>
-      <find>cubic</find>
-      <find>&quot;Linear&quot;</find>
-      <find>Misc</find>
-      <find>&quot;</find>
-      <find>&quot;dirich</find>
-      <find>hypre</find>
-      <find>&quot;Solve&quot;</find>
-      <find>Assem</find>
-      <find>inhomo</find>
-      <find>loadin</find>
-      <find>as</find>
-      <find>diri</find>
-      <find>bounda</find>
-      <find>sol</find>
-      <find>assemble_rh</find>
-      <find>a</find>
-      <find>assemble(r</find>
-      <find>set_b</find>
-      <find>/ac</find>
-      <find>rhs</find>
-      <find>sk</find>
-      <find>;</find>
-      <find>Logger</find>
-      <find>Logger.</find>
-      <find>coeffs</find>
+      <find>entries_t</find>
+      <find>mapped</find>
+      <find>_.assem</find>
+      <find>.assemb</find>
+      <find>&quot;diric</find>
+      <find>displacement</find>
+      <find>init(</find>
+      <find>problem</find>
+      <find>#include &lt;polyfem.G</find>
+      <find>#include &lt;polyfem/P</find>
+      <find>Pro</find>
+      <find>problem-&gt;b</find>
+      <find>displacements_</find>
+      <find>dirichlet_</find>
+      <find>std::c</find>
+      <find>displace</find>
+      <find>assemble(</find>
+      <find>stiffness_val</find>
+      <find>coeff</find>
+      <find>stiffness</find>
+      <find>problem-&gt;</find>
+      <find>set_</find>
+      <find>set_bc</find>
+      <find>neuma</find>
+      <find>dirichlet_bou</find>
+      <find>neuman</find>
+      <find>Zero_BC</find>
+      <find>&quot;Sine</find>
+      <find>1D-</find>
+      <find>sine_f</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/externals/polyfem" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/externals/polyfem/src/problem/GenericProblem.cpp" />
         <option value="$PROJECT_DIR$/src/test.cpp" />
         <option value="$PROJECT_DIR$/externals/polyfem/src/assembler/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/externals/polyfem/src/assembler/Assembler.cpp" />
@@ -314,11 +291,13 @@
         <option value="$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/ExpressionValue.hpp" />
         <option value="$PROJECT_DIR$/src/SturmLiouville.hpp" />
         <option value="$PROJECT_DIR$/src/SturmLiouville.cpp" />
-        <option value="$PROJECT_DIR$/data/SLparams.json" />
-        <option value="$PROJECT_DIR$/data/BCparams.json" />
         <option value="$PROJECT_DIR$/src/CustomAssemblerUtils.cpp" />
         <option value="$PROJECT_DIR$/externals/polyfem/src/State.cpp" />
         <option value="$PROJECT_DIR$/externals/polyfem/src/assembler/RhsAssembler.cpp" />
+        <option value="$PROJECT_DIR$/externals/polyfem/src/problem/GenericProblem.cpp" />
+        <option value="$PROJECT_DIR$/data/BCparams.json" />
+        <option value="$PROJECT_DIR$/src/UIMenu.cpp" />
+        <option value="$PROJECT_DIR$/data/SLparams.json" />
       </list>
     </option>
   </component>
@@ -329,7 +308,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -340,7 +319,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,7 +334,23 @@
             <path>
               <item name="slfem" type="b2602c69:ProjectViewProjectNode" />
               <item name="SLFEM" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="slfem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SLFEM" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="slfem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SLFEM" type="462c0819:PsiDirectoryNode" />
+              <item name="externals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="slfem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SLFEM" type="462c0819:PsiDirectoryNode" />
+              <item name="externals" type="462c0819:PsiDirectoryNode" />
+              <item name="polyfem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="slfem" type="b2602c69:ProjectViewProjectNode" />
@@ -367,6 +361,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -717,23 +712,24 @@
       <workItem from="1557861016858" duration="14562000" />
       <workItem from="1557932933622" duration="598000" />
       <workItem from="1558036365738" duration="10531000" />
-      <workItem from="1558125402299" duration="46023000" />
+      <workItem from="1558125402299" duration="48008000" />
+      <workItem from="1558310502007" duration="11261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71714000" />
+    <option name="totallyTimeSpent" value="84960000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26171243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -779,90 +775,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/externals/polyfem/3rdparty/json/include/nlohmann/json.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5998" selection-start-line="5998" selection-end-line="5998" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/externals/polyfem/3rdparty/json/include/nlohmann/detail/input/parser.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="570" selection-start-line="570" selection-end-line="570" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/4poly.off">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/assembler/Laplacian.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/MassMatrixAssembler.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/assembler/Bilaplacian.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/assembler/MassMatrixAssembler.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/externals/polyfem/misc/solver_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1462" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/problem/PointBasedProblem.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="92" column="34" lean-forward="true" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/key.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/externals/polyfem/tests/test_problem.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1175">
-          <caret line="102" column="34" lean-forward="true" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/assembler/utils/AssemblerUtils.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="283" column="98" selection-start-line="283" selection-start-column="98" selection-end-line="283" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/AssemblerUtils.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
@@ -1000,17 +912,6 @@
     <entry file="file://$PROJECT_DIR$/data/plane_hole.obj">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#319#354#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/externals/polyfem/src/problem/TestProblem.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-82">
@@ -1028,63 +929,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/problem/Problem.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding>
-            <element signature="e#2880#2987#0" />
-            <element signature="e#5466#5680#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/MiscProblem.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/problem/MiscProblem.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/externals/polyfem/src/problem/ProblemWithSolution.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/GenericProblem.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="62" column="78" selection-start-line="62" selection-start-column="78" selection-end-line="62" selection-end-column="78" />
-          <folding>
-            <element signature="e#148#1620#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/problem/GenericProblem.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="219" column="23" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="23" />
-          <folding>
-            <element signature="e#110#234#0" />
-            <element signature="e#237#504#0" />
-            <element signature="e#507#953#0" />
-            <element signature="e#956#1882#0" />
-            <element signature="e#1885#2554#0" />
-            <element signature="e#2557#4632#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1095,67 +943,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/SLparams.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SturmLiouville.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/BCparams.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UIMenu.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="332" column="68" selection-start-line="332" selection-start-column="68" selection-end-line="332" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UIState.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="1619" column="20" lean-forward="true" selection-start-line="1619" selection-start-column="20" selection-end-line="1619" selection-end-column="20" />
+        <state relative-caret-position="24285">
+          <caret line="1619" column="20" selection-start-line="1619" selection-start-column="20" selection-end-line="1619" selection-end-column="20" />
           <folding>
             <element signature="e#125#160#0" expanded="true" />
             <element signature="e#519#541#0" expanded="true" />
             <element signature="e#685#710#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CustomAssemblerUtils.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="411" column="10" selection-start-line="411" selection-start-column="10" selection-end-line="412" selection-end-column="70" />
-          <folding>
-            <element signature="e#40#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/State.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1869">
-          <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-          <folding>
-            <marker date="1558295425979" expanded="false" signature="57561:60724" ph="{...}" />
-            <marker date="1558295425979" expanded="false" signature="62379:62726" ph="{...}" />
-            <marker date="1558295425979" expanded="false" signature="64477:69273" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1169,35 +964,243 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/LocalBoundary.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="15">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/ElementBases.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="71" column="77" lean-forward="true" selection-start-line="71" selection-start-column="77" selection-end-line="71" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/RhsAssembler.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        <state relative-caret-position="315">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding>
             <element signature="e#53#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/basis/ElementBases.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CustomAssemblerUtils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="139" column="50" selection-start-line="139" selection-start-column="43" selection-end-line="139" selection-end-column="50" />
+          <folding>
+            <element signature="e#40#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/State.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+          <folding>
+            <element signature="e#37#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/GenericProblem.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="62" column="80" selection-start-line="62" selection-start-column="80" selection-end-line="62" selection-end-column="80" />
+          <folding>
+            <element signature="e#148#1620#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-417">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#319#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/externals/libigl/external/eigen/Eigen/src/SparseCore/SparseMatrix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="236" column="16" selection-start-line="236" selection-start-column="16" selection-end-line="236" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/assembler/Assembler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+          <folding>
+            <element signature="e#2365#2448#0" expanded="true" />
+            <element signature="e#2904#2936#0" expanded="true" />
+            <element signature="e#5680#5681#0" expanded="true" />
+            <element signature="e#6324#6519#0" expanded="true" />
+            <element signature="e#6795#11141#0" />
+            <element signature="e#17879#19326#0" />
+            <marker date="1558039307643" expanded="true" signature="4852:5349" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/State.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="186" column="37" lean-forward="true" selection-start-line="186" selection-start-column="37" selection-end-line="186" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1558295425979" expanded="false" signature="57561:60724" ph="{...}" />
+            <marker date="1558295425979" expanded="false" signature="62379:62726" ph="{...}" />
+            <marker date="1558295425979" expanded="false" signature="63186:63887" ph="{...}" />
+            <marker date="1558295425979" expanded="false" signature="64477:69273" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/externals/polyfem/src/assembler/RhsAssembler.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="308" column="76" selection-start-line="308" selection-start-column="76" selection-end-line="308" selection-end-column="76" />
+        <state relative-caret-position="96">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
             <element signature="e#2552#3630#0" />
-            <element signature="e#11927#12611#0" />
-            <element signature="e#12614#13325#0" />
-            <element signature="e#14054#14615#0" />
-            <element signature="e#14618#18035#0" />
             <marker date="1558296866875" expanded="true" signature="1107:1998" ph="{...}" />
             <marker date="1558296866875" expanded="true" signature="8794:10057" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/problem/NodeProblem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="141" column="42" selection-start-line="141" selection-start-column="37" selection-end-line="141" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/problem/GenericProblem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="286" column="30" selection-start-line="286" selection-start-column="24" selection-end-line="286" selection-end-column="30" />
+          <folding>
+            <element signature="e#110#234#0" />
+            <element signature="e#956#1882#0" />
+            <element signature="e#1885#2554#0" />
+            <element signature="e#2557#4632#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/BCparams.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/assembler/Laplacian.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/Types.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="82" lean-forward="true" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/ElementAssemblyValues.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/AssemblyValues.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SturmLiouville.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/externals/polyfem/tests/test_problem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-296">
+          <caret line="320" column="5" selection-start-line="320" selection-start-column="5" selection-end-line="320" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/problem/Problem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="99" column="58" selection-start-line="99" selection-start-column="58" selection-end-line="99" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#2880#2987#0" />
+            <element signature="e#5466#5680#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/polyfem/include/polyfem/MiscProblem.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/externals/polyfem/src/problem/MiscProblem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UIMenu.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="251" column="32" selection-start-line="251" selection-start-column="32" selection-end-line="251" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/result.vtu">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/SLparams.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>

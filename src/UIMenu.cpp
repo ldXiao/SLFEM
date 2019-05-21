@@ -241,7 +241,7 @@ void polyfem::UIState::draw_settings() {
 
     if(is_scalar)
     {
-        if(ImGui::BeginCombo("1D-Form", state.scalar_formulation().c_str()))
+        if(ImGui::BeginCombo("Formulation", state.scalar_formulation().c_str()))
         {
             for(auto f : scalar_forms)
             {
